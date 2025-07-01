@@ -5,6 +5,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Reposit
 
 
 روش دوم :
+
 1 - برای استفاده از این اسکریپ ابتدا فایل mirrors.sh را دانلود و بر روی Root سیستم عامل ابونتو سرور خود آپلود کنید.
 
 
