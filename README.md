@@ -1,4 +1,5 @@
 با درود و احترام و عرض ادب خدمت کاربران
+bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/mirrors.sh)
 
 1 - برای استفاده از این اسکریپ ابتدا فایل mirrors.sh را دانلود و بر روی Root سیستم عامل ابونتو سرور خود آپلود کنید.
 
