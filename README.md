@@ -1,5 +1,9 @@
 با درود و احترام و عرض ادب خدمت کاربران
+
+روش اول : 
+
 با همین دستور پایین میتوانید اجرا کنید تا به طور اتوماتیک بهترین مخزن برای سرور ایران شما قرار بگیرد.
+
 
 bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/mirrors.sh)
 
