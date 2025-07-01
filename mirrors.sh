@@ -5,8 +5,9 @@ set -e
 UBUNTU_CODENAME="jammy"
 
 MIRRORS=(
-  "https://mirrors.pardisco.co/ubuntu/"
+  "http://mirror.arvancloud.ir/ubuntu"
   "https://archive.ubuntu.petiak.ir/ubuntu/"
+  "https://mirrors.pardisco.co/ubuntu/"
   "http://mirror.aminidc.com/ubuntu/"
   "http://mirror.faraso.org/ubuntu/"
   "https://ir.ubuntu.sindad.cloud/ubuntu/"
