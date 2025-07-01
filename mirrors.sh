@@ -37,16 +37,16 @@ WORKING_MIRROR=""
 for MIRROR in "${MIRRORS[@]}"; do
     echo -n "⏳ TEST $MIRROR ... "
     if curl -s --head --max-time 5 "$MIRROR" | grep -q "200 OK"; then
-        echo "✅ in Line"
+        echo "✅ is OnLine"
         WORKING_MIRROR=$MIRROR
         break
     else
-        echo "❌ Not Line"
+        echo "❌ Not OnLine"
     fi
 done
 
 if [ -z "$WORKING_MIRROR" ]; then
-    echo "🚫 All Not In Line"
+    echo "🚫 All Not OnLine"
     exit 1
 fi
 
@@ -62,7 +62,7 @@ EOF
 
 echo ""
 echo "✅ Settings OK"
-echo "📦 Now - Command Inline Run"
+echo "👇 Now - Command Update Server Run 👇"
 echo ""
 echo "sudo apt update"
 echo ""
