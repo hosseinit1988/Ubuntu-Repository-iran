@@ -24,7 +24,7 @@ Sudo ./mirrors.sh
 
 4 - در صورتی که عملات با موفقیت انجام گردد در پایان میتونید دستور آپدیت سرور خود را قرار دهید 
 
-sudo apt update
+sudo apt update && sudo apt upgrade
 
 
 موفق و موید باشید
