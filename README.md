@@ -1,30 +1,112 @@
-جهت استفاده در سرور های ایران
+# Ubuntu Repository Iran 🇮🇷
 
-با درود و احترام و عرض ادب خدمت کاربران
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-18.04%20%7C%2020.04%20%7C%2022.04-orange)](https://ubuntu.com)
 
-روش اول : 
+این پروژه شامل یک اسکریپت ساده و کاربردی برای تغییر مخازن (Repositories) اوبونتو به **آینه‌های داخلی ایران** است.  
+با اجرای این اسکریپت، سرعت دانلود پکیج‌ها افزایش یافته و دسترسی به مخازن پایدارتر می‌شود.
 
-با همین دستور پایین میتوانید اجرا کنید تا به طور اتوماتیک بهترین مخزن برای سرور ایران شما قرار بگیرد.
+---
 
+## 🚀 نصب و اجرا
 
+برای اجرای مستقیم اسکریپت، کافیست دستور زیر را در ترمینال وارد کنید:
+
+```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/mirrors.sh)
+```
 
+---
 
-روش دوم :
+## 📋 پیش‌نیازها
+- سیستم‌عامل **Ubuntu** (تست‌شده روی نسخه‌های 18.04، 20.04، 22.04)  
+- دسترسی به کاربر **root** یا **sudo**
 
-1 - برای استفاده از این اسکریپ ابتدا فایل mirrors.sh را دانلود و بر روی Root سیستم عامل ابونتو سرور خود آپلود کنید.
+---
 
+## ⚡ امکانات
+- تغییر خودکار مخازن رسمی اوبونتو به آینه‌های داخلی ایران  
+- پشتیبانی از نسخه‌های مختلف اوبونتو  
+- سریع، ساده و بدون نیاز به تنظیمات دستی  
 
-2 - بعد از آن با دستور Sudo chmod +x mirrors.sh  دسترسی لازم رو بدین.
+---
 
-3 - حالا میتونید با دستور زیر فایل رو اجرا کنید تا به طور اتوماتیک بهترین مخزن برای سرور ایران شما قرار بگیرد.
+## 📦 استفاده پس از نصب
+بعد از اجرای اسکریپت کافیست دستور زیر را اجرا کنید:
 
-Sudo ./mirrors.sh
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
+---
 
-4 - در صورتی که عملات با موفقیت انجام گردد در پایان میتونید دستور آپدیت سرور خود را قرار دهید 
+## 🛠 توسعه‌دهنده
+- 👨‍💻 نویسنده: [Hossein.IT](https://github.com/hosseinit1988)  
+- 📌 پروژه متن‌باز است؛ خوشحال می‌شوم اگر آن را Fork کنید یا Pull Request ارسال کنید.  
 
-sudo apt update && sudo apt upgrade
+---
 
+## ⚠️ نکته مهم
+- این اسکریپت فقط برای کاربران **داخل ایران** طراحی شده است.  
+- استفاده در خارج از ایران ممکن است باعث کندی در دریافت بسته‌ها شود.  
 
-موفق و موید باشید
+---
+
+## ⭐ حمایت
+اگر این پروژه برایتان مفید بود، لطفاً با زدن ⭐ در گیتهاب از من حمایت کنید.  
+
+---
+
+# Ubuntu Repository Iran 🇬🇧
+
+This project provides a simple and useful script to change **Ubuntu repositories** to **Iranian local mirrors**.  
+By running this script, package download speed will increase and access to repositories will be more stable.
+
+---
+
+## 🚀 Installation & Usage
+
+Run the following command in your terminal:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/mirrors.sh)
+```
+
+---
+
+## 📋 Requirements
+- **Ubuntu OS** (tested on 18.04, 20.04, 22.04)  
+- **root** or **sudo** privileges  
+
+---
+
+## ⚡ Features
+- Automatically switch official Ubuntu repositories to Iranian mirrors  
+- Supports multiple Ubuntu versions  
+- Fast, simple, no manual configuration required  
+
+---
+
+## 📦 After Installation
+Update your packages list with:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+---
+
+## 🛠 Developer
+- 👨‍💻 Author: [Hossein.IT](https://github.com/hosseinit1988)  
+- 📌 Open-source project – feel free to Fork or send a Pull Request.  
+
+---
+
+## ⚠️ Notes
+- This script is mainly designed for **users inside Iran**.  
+- Using it outside Iran may slow down package downloads.  
+
+---
+
+## ⭐ Support
+If you find this project useful, please give it a ⭐ on GitHub!
