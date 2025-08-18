@@ -57,7 +57,7 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-# Ubuntu Repository Iran 🇬🇧
+# Ubuntu Repository Iran 🇮🇷
 
 This project provides a simple and useful script to change **Ubuntu repositories** to **Iranian local mirrors**.  
 By running this script, package download speed will increase and access to repositories will be more stable.
