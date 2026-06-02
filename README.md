@@ -18,7 +18,7 @@
 
 | 🇫🇦 فارسی | 🇬🇧 English |
 |-----------|------------|
-| 🚀 **۱۸+ میرور ایرانی** همراه با نام شهر و提供商 | **18+ Iranian Mirrors** with city & provider |
+| 🚀 **۱۸+ میرور ایرانی** همراه با نام شهر و| **18+ Iranian Mirrors** with city & provider |
 | ⚡ **پیدا کردن سریع‌ترین میرور** (تست سرعت خودکار) | **Fastest Mirror Detection** (auto speed test) |
 | 🎨 **نصب خودکار ابزارهای جانبی** (داکر، وب سرور، دیتابیس) | **Auto Install Tools** (Docker, Web Server, DB) |
 | 🔧 **تنظیمات پیشرفته** (تغییر نسخه، پشتیبان‌گیری) | **Advanced Settings** (change release, backup) |
