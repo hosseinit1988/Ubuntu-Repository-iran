@@ -31,7 +31,7 @@
 
 ### One-line installation (یک خطی):
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/ubuntu-mirror.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/hosseinit1988/Ubuntu-Repository-iran/main/mirror.sh)
 ```
 
 ### Traditional method (روش سنتی):
